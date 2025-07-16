@@ -10,6 +10,10 @@
 .dark-2{
     color: #424242;
 }
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* Nav Styles */
 .navbar{
     display: flex;
@@ -18,8 +22,8 @@
     margin: 0 240px;
 }
 .brand{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 3em;
+    font-weight: 700;
 }
 .nav-item{
     list-style: none;
@@ -30,4 +34,5 @@
 }
 .nav-link{
     text-decoration: none;
+    font-weight: 500;
 }
