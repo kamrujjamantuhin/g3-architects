@@ -4,14 +4,30 @@
   font-style: normal;
 }
 /* Shared Styles */
+.bg-secondary{
+    background-color: rgba(255, 144, 14, 0.1);
+}
 .dark-1{
     color: #131313;
 }
 .dark-2{
     color: #424242;
 }
-.navbar{
-    max-width: 1440px;
+.dark-3{
+    color: #727272;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 20px 25px;
+}
+.navbar, .banner{
+    max-width: 1200px;
     margin: 0 auto;
 }
 /* Nav Styles */
@@ -19,7 +35,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 240px;
 }
 .brand{
     font-size: 3em;
@@ -35,4 +50,19 @@
 .nav-link{
     text-decoration: none;
     font-weight: 500;
+}
+/* Banner Styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    font-size: 4em;
+    font-weight: 700;
+}
+.banner-profile-pic{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
 }
