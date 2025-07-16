@@ -3,3 +3,31 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Shared Styles */
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+/* Nav Styles */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+.brand{
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-link{
+    text-decoration: none;
+}
